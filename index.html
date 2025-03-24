@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartões Responsivos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 23%;
+            min-width: 250px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .links p {
+            margin-bottom: 7.5px;
+        }
+
+        .lista {
+            list-style: none;
+        }
+
+        /* Responsividade */
+        @media (max-width: 1024px) {
+            .card {
+                width: 30%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h3>Alex Souza Do Amaral</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://rainbow-kulfi-5cce97.netlify.app" target="_blank">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Ana Sarah Ribeiro Castilho</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://calm-chimera-8b2d84.netlify.app" target="_blank">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Camilly Benício Santana</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://timely-figolla-830c49.netlify.app/" target="_blank">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Eduarda Lino Dos Santos Silva</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://celebrated-jalebi-11c03e.netlify.app/" target="_blank">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Felipe Guedes Dos Santos</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Guilherme Nanias Moreira</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://relaxed-macaron-5b9d8b.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Gustavo Henrique Linares</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://inspiring-mochi-95f58a.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Jean Lucas Domingues De Souza</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://site-do-jean-lucas-senai.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Jefferson Cauã Salvador De Sousa</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://melodious-phoenix-ecc786.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Letícia Pereira Silva</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://bucolic-brioche-1e881c.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Luiz Fernando De Souza Campos</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://genuíno-mooncake-1545eb.netlify.app">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Maria Eduarda Alves Ferreira</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://mellifluous-starburst-39464a.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Matheus Henrique Bello</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://vermillion-taffy-64064a.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Pablo Gustavo Ferreira Rosa</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://quiet-stardust-13e546.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Paula Pereira Sobral</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://moonlit-stroopwafel-14f667.netlify.app">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Rafaela Akiko Hoshi</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://benevolent-madeleine-bdecfb.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Sarah Rúbia Rosa Da Costa</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Tiago De Souza Santos</h3>
+            <div class="links">
+                <p>Páginas desenvolvidas:</p>
+                <ul class="lista">
+                    <li>
+                        <a href="https://comforting-basbousa-901f88.netlify.app/">Temas variados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
